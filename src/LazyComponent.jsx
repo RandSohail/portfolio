@@ -2,21 +2,21 @@ import {
   NavBar,
   Home,
   Expertise,
-  CareerHistory,
+  History,
   Projects,
   Contact
 } from './components';
-function App() {
+function LazyComponent() {
   return (
     <>
       <NavBar />
       <Home />
       <Expertise />
-      <CareerHistory />
+      <History />
       <Projects />
       <Contact />
     </>
   );
 }
 
-export default App;
+export default LazyComponent;
