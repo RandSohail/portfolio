@@ -32,7 +32,7 @@ const ExpertiseCard: React.FC<ExpertiseCardProps> = ({
   );
 };
 
-const ExpertiseCardContainer = styled.div`
+const ExpertiseCardContainer = styled.main`
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   display: flex;
   flex-direction: column;
@@ -52,7 +52,7 @@ const Logo = styled.div`
   }
 `;
 
-const StackContainer = styled.div`
+const StackContainer = styled.section`
   display: flex;
   flex-wrap: wrap;
   gap: 10px;

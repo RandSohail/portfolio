@@ -2,7 +2,7 @@ import Typewriter from 'typewriter-effect';
 
 export default function Type() {
   return (
-    <h1 style={{ marginBottom: '20px' }}>
+    <h2 style={{ marginBottom: '20px' }}>
       <Typewriter
         options={{
           strings: [
@@ -16,6 +16,6 @@ export default function Type() {
           deleteSpeed: 50
         }}
       />
-    </h1>
+    </h2>
   );
 }

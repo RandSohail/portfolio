@@ -30,9 +30,9 @@ export default function Contact() {
               <li>
                 <a href="#projects">Projects</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#blog">Blog</a>
-              </li>
+              </li> */}
             </NavLinks>
           </nav>
           <Social>
@@ -71,7 +71,7 @@ export default function Contact() {
   );
 }
 
-const ContactContainer = styled.header`
+const ContactContainer = styled.footer`
   padding: 40px 0px;
   text-align: center;
   display: flex;

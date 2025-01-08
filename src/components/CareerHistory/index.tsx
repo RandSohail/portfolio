@@ -9,6 +9,7 @@ import GFS from '../../assets/Google_for_Startups_logo.svg.png';
 import Lazzaro from '../../assets/lazzaro.png';
 import TrustAngle from '../../assets/trustangle-logo-white.svg';
 import GSG from '../../assets/06b18d8acdb6c1ea4e7ff305b70cb160-1024x725.webp';
+
 interface Career {
   position: string;
   company: string;
@@ -78,6 +79,7 @@ export default function History() {
           <CardContainer>
             <CarouselContainer>
               <Carousel
+                showThumbs={false}
                 showStatus={false}
                 showArrows={false}
                 autoPlay

@@ -28,7 +28,7 @@ export default function Home() {
   );
 }
 
-const HomeContainer = styled.div`
+const HomeContainer = styled.header`
   width: 90%;
   height: 600px;
   margin: 0px auto;
@@ -39,7 +39,7 @@ const HomeContainer = styled.div`
     height: 400px;
   }
 `;
-const TextSection = styled.div`
+const TextSection = styled.main`
   width: 50%;
   height: 100%;
   padding-left: 50px;
@@ -49,7 +49,7 @@ const TextSection = styled.div`
     text-align: center;
   }
 `;
-const InnerText = styled.div`
+const InnerText = styled.section`
   padding-top: 70px;
   margin-bottom: 90px;
   @media (max-width: 650px) {

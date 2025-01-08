@@ -44,10 +44,10 @@ export default function Projects() {
   );
 }
 
-const ProjectsContainer = styled.header`
+const ProjectsContainer = styled.div`
   background: #160f2194;
   padding: 50px 0px;
-  h1 {
+  h2 {
     text-align: center;
   }
 `;
