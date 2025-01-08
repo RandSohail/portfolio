@@ -1,20 +1,14 @@
-import {
-  NavBar,
-  Home,
-  Expertise,
-  CareerHistory,
-  Projects,
-  Contact
-} from './components';
+import { Suspense, lazy } from 'react';
+import { Loader } from './components';
+
+const LandingPage = lazy(() => import('./LandingPage'));
+
 function App() {
   return (
     <>
-      <NavBar />
-      <Home />
-      <Expertise />
-      <CareerHistory />
-      <Projects />
-      <Contact />
+      <Suspense fallback={<Loader />}>
+        <LandingPage />
+      </Suspense>
     </>
   );
 }

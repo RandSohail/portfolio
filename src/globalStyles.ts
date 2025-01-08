@@ -2,7 +2,6 @@ import styled, { createGlobalStyle } from 'styled-components';
 import BK from './assets/background.png';
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
   
 :root{
   --primary-color: #B56BE3;
@@ -31,7 +30,7 @@ export const Container = styled.div`
   width: 90%;
   margin: 0px auto;
 `;
-export const Title = styled.h1`
+export const Title = styled.h2`
   color: var(--color2);
 `;
 export default GlobalStyle;

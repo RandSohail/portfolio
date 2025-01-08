@@ -4,4 +4,4 @@ export { default as Expertise } from './Expertise';
 export { default as CareerHistory } from './CareerHistory';
 export { default as Projects } from './Projects';
 export { default as Contact } from './contact';
-export { default as Loading } from './loading';
+export { default as Loader } from './Loader';

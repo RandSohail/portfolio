@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 import { TiHomeOutline } from 'react-icons/ti';
 import { MdOutlineStars, MdOutlineShoppingBag } from 'react-icons/md';
-import { GoGear, GoPencil } from 'react-icons/go';
+import { GoGear } from 'react-icons/go';
 import { LuPhoneCall } from 'react-icons/lu';
+
+// import { GoPencil } from 'react-icons/go';
 
 import Logo from '../assets/logo.png';
 
@@ -37,12 +39,12 @@ export default function NavBar() {
                 Projects
               </a>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <a href="#blog">
                 <GoPencil />
                 Blog
               </a>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <a href="#contact">
                 <LuPhoneCall />
@@ -56,7 +58,7 @@ export default function NavBar() {
   );
 }
 
-const HeaderContainer = styled.header`
+const HeaderContainer = styled.div`
   position: sticky;
   top: 0;
   width: 100%;

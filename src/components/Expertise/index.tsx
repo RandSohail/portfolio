@@ -62,15 +62,14 @@ export default function Expertise() {
   );
 }
 
-const ExpertiseContainer = styled.div`
+const ExpertiseContainer = styled.main`
   background: #160f2194;
   padding: 50px 0px;
 `;
-const Sections = styled.div`
+const Sections = styled.section`
   display: flex;
   justify-content: space-between;
   @media (max-width: 950px) {
-    /* border: 1px solid white; */
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
