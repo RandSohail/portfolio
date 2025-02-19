@@ -108,7 +108,15 @@ const CareerContainer = styled.div`
 `;
 
 const CarouselContainer = styled.div`
+border: 1px solid red;
+height: 400px;
+.carousel.carousel-slider{
+overflow: visible !important;}
+ul.control-dots{
+    margin: -38px 0;
+    }
   ul {
+  
     li.dot {
       background: var(--color2) !important;
     }

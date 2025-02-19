@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 interface ProjectCardProps {
-  date: string;
   name: string;
   liveLink: string;
   codeLink: string;
@@ -9,7 +8,6 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({
-  date,
   name,
   liveLink,
   codeLink,
@@ -18,13 +16,12 @@ export default function ProjectCard({
   return (
     <>
       <ProjectCardContainer>
-        <p>{date}</p>
         <ProjectImage image={image}>
           <Overlay>
             <ProjectName>
               {name} <br />
-              <Link href={liveLink}>Live</Link> |{' '}
-              <Link href={codeLink}>Code</Link>
+              <Link target='_blank'  href={liveLink}>Live</Link> |{' '}
+              <Link target='_blank' href={codeLink}>Code</Link>
             </ProjectName>
           </Overlay>
         </ProjectImage>
