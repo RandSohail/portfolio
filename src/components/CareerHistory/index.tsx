@@ -108,7 +108,6 @@ const CareerContainer = styled.div`
 `;
 
 const CarouselContainer = styled.div`
-border: 1px solid red;
 height: 400px;
 .carousel.carousel-slider{
 overflow: visible !important;}
